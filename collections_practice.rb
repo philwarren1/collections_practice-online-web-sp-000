@@ -36,15 +36,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-   if block_given?
-    i = 0
- 
-    while i < array.length
-      yield(array[i])
-      i = i + 1
-    end
-   array
-  else
-    "bl$ke", "as$ley", "sc$tt"
-end 
-end 
+ new_array = []
+  array.each do |string|
+    string[3] = "$"
+    return_array << string
+  end
+  new_array
+end
