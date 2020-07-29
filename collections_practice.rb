@@ -45,6 +45,6 @@ def kesha_maker(array)
     end
    array
   else
-    "Hey!"
+    "bl$ke", "as$ley", "sc$tt"
 end 
 end 
