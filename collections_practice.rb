@@ -49,4 +49,3 @@ def find_a(array)
     string.start_with?("a")
   end
 end
-end
