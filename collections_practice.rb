@@ -51,9 +51,9 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = 0
-  array.each do |num|
-    sum += num
+  i = 0
+  array.each do |number|
+    i += number
   end
-  sum
+  i
 end 
